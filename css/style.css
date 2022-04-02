@@ -1,0 +1,43 @@
+.index{
+    background-color: rgb(196, 196, 196);
+}
+
+.cartas{
+    margin-top: 5%;
+}
+
+.ofertas{
+    margin-top: 4%;
+    border: 3px solid grey;
+}
+
+.planes{
+
+    background-image: url(../img/fondo.png);
+    background-size: cover;
+
+}
+
+.contenido{
+    padding: 30px;
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.planes .card{
+
+    background-color: rgb(173, 95, 236);
+
+}
+
+.planes *{
+
+    font-size: 22px;
+
+}
+
