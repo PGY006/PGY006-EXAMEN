@@ -1,5 +1,5 @@
 .index{
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(255, 255, 255);
 }
 
 .cartas{
@@ -9,6 +9,7 @@
 .ofertas{
     margin-top: 4%;
     border: 3px solid grey;
+    margin-bottom: 30px;
 }
 
 .planes{
@@ -39,5 +40,19 @@ footer {
 
     font-size: 22px;
 
+}
+
+.form-registrar{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-registrar h4{
+    font-size: 40px;
+    margin-bottom: 20px;
 }
 
