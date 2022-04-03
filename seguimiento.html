@@ -11,40 +11,47 @@
     <!--Fontawesome-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css " rel="stylesheet">
 </head>
-<body>
+<body class="bg-dark">
+  <!--Navbar-->
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
-      <a href="index.html" style="margin-right: 10px;"><img src="/img/logo.png" alt="" height="60"></a>
+      <a href="indexRegistrado.html" style="margin-right: 10px;"><img src="/img/logo.png" alt="" height="60"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="mynavbar">
+      <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="productos.html">Productos</a>
+            <a class="nav-link" href="productoRegistrado.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Ofertas</a>
+            <a class="nav-link" href="ofertas.html">Ofertas</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="planes.html">Suscripción</a>
           </li>
         </ul>
-        <a href="registro.html"><button type="button" class="btn btn-outline-primary boton" >Registrarse</button></a>
-        <a href="inicio.html"><button type="button" class="btn btn-outline-secondary boton active">Iniciar Sesion</button></a>
+        <a href="#"><button type="button" class="btn btn-primary boton" ><i class="fa-solid fa-user"> PERFIL</i></button></a>
         <form class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Buscar">
           <button class="btn btn-primary" type="button"><i class="fa fa-magnifying-glass"></i></button>
-        </form> 
+        </form>
       </div>
     </div>
   </nav>
 
+  <div class="container mb-5">
+    <div class="d-flex  mt-4">
+        <h4 class="text-light">Seguimiento del pedido</h4>
+  </div>
+
+  <hr style="color: white;">
+
     <div class="container">
         <div class="row"> 
-            <div class="col-sm-6">
+            <div class="col-sm-6 text-light">
                 <form class="form-seguimiento" action="/action_page.php">
-                    <label for="text">Codigo:</label>
+                    <label for="text">Codigo de Seguimiento:</label>
                     <input type="text" class="form-control"  id="seguimiento">
                     <hr>
                     <button type="submit" class="btn btn-success">Buscar</button>
@@ -55,18 +62,18 @@
               <table class="table">
                 <thead>
                   <tr>
-                    <th>Destino</th>
-                    <th>Producto</th>
-                    <th>Donde esta</th>
-                    <th>Entrega estimada</th>
+                    <th>Fecha del pedido</th>
+                    <th>Hora del pedido</th>
+                    <th>Despacho</th>
+                    <th>Fue recibido</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th>calle falsa 123</th>
-                    <th>Semillas de girasol</th>
-                    <th>Recoleta</th>
-                    <th>5 horas</th>
+                    <th>12/01/2022</th>
+                    <th>12 PM</th>
+                    <th>Calle tuki 123</th>
+                    <th>Si</th>
                   </tr>
                   
                   
