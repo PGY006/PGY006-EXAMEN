@@ -25,9 +25,6 @@
             <a class="nav-link" href="productoRegistrado.html">Productos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="ofertas.html">Ofertas</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="planes.html">Suscripción</a>
           </li>
         </ul>
@@ -50,10 +47,10 @@
     <div class="container">
         <div class="row"> 
             <div class="col-sm-6 text-light">
-                <form class="form-seguimiento" action="/action_page.php">
+                <form class="form-seguimiento" action="">
                     <label for="text">Codigo de Seguimiento:</label>
                     <input type="text" class="form-control"  id="seguimiento">
-                    <hr>
+                    <hr style="color:lightgray;">
                     <button type="submit" class="btn btn-success">Buscar</button>
                   </form>
             </div>
@@ -61,30 +58,28 @@
             <div class="col-sm-6 mt-5">
               <table class="table">
                 <thead>
-                  <tr>
+                  <tr class="text-light">
                     <th>Fecha del pedido</th>
                     <th>Hora del pedido</th>
                     <th>Despacho</th>
                     <th>Fue recibido</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
-                    <th>12/01/2022</th>
-                    <th>12 PM</th>
-                    <th>Calle tuki 123</th>
-                    <th>Si</th>
+                <tbody class="">
+                  <tr class="text-light" style="border: rgb(77, 75, 75);">
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                    <td>john@example.com</td>
                   </tr>
-                  
-                  
-                </tbody>
               </table>
             </div>
         </div>
 
     </div>
-
+    
     <footer class="bg-dark text-center text-white">
+      <hr>
       <div class="container p-4">
         <div class="mb-4">
           <!-- Iconos -->
