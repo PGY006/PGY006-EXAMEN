@@ -76,7 +76,7 @@ footer {
     margin-right: 5px;
 }
 
-.color-izq{
+.banner-izq{
     padding-bottom: 27%;
 }
 
@@ -86,10 +86,6 @@ footer {
     border-radius: 4px;
 }
 
-.parrafos{
-    position: relative;
-    top: 100%;
-}
 
 .btn-sub{
     border: none;
@@ -102,4 +98,96 @@ footer {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 50px;
+}
+
+.color-izq{
+    padding-bottom: 25%;
+}
+
+.texto-planes{
+    position: relative;
+    top: 250px;
+}
+
+@media (max-width: 991px){
+    .textocarta{
+        position: absolute;
+        bottom: 100px;
+        margin-left: 45px;
+    }
+    .textoprecio{
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .banner-izq{
+        display: none;
+    }
+
+    .color-izq{
+        padding-bottom: 58%;
+        width: 100%;
+    }
+
+    .texto-planes{
+        top: 100px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .textocarta{
+        position: absolute;
+        margin-left: 100px;
+    }
+
+    .item-carrito{
+        padding-right: 25px;
+    }
+
+
+    .textoprecio{
+        bottom: 5%;
+    }
+
+}
+
+@media (max-width: 1120px){
+    .col-sm-3{
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px){
+    .col-sm-3{
+        width: 100%;
+    }
+
+    .imagen-producto{
+        height: 450px;
+    }
+    
+    .botones{
+        
+        margin-bottom: 10px;
+        
+    }
+
+    .inicio navbar{
+
+        
+
+    }
+
+}
+
+
+@media (max-width: 600px){
+    
+    .inicio{
+        width: 100%;
+    }
+    
+   
+
 }
