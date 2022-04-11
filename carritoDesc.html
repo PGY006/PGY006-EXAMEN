@@ -15,17 +15,14 @@
 <body class="carrito bg-secondary text-white">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-          <a href="indexRegistrado.html" style="margin-right: 10px;"><img src="/img/logo.png" alt="" height="60"></a>
+          <a href="indexSuscrito.html" style="margin-right: 10px;"><img src="/img/logo.png" alt="" height="60"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="productoRegistrado.html"><h5 style="color: rgb(255, 255, 255);">Productos</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="planes.html">Suscripción</a>
+                <a class="nav-link" href="productoSuscrito.html">Productos</a>
               </li>
             </ul>
             <div class="btn-group">
@@ -37,9 +34,6 @@
                   <div class="dropdown-divider"></div>
                   <div>
                     <a href="seguimiento.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-truck"></i> Seguimiento</a>
-                  </div>
-                  <div>
-                    <a href="carrito.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-cart-shopping"></i> Carrito </a>
                   </div>
                   <div class="dropdown-divider"></div>
                   <div class="ms-2" style="cursor: pointer;" onclick="cerrarsesion()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</div>
@@ -56,12 +50,13 @@
       <div class="container">
 
         <div class="card bg-dark mb-3 mt-3">
-          <div class="card-body">
-            <img src="img/1.webp" alt="" height="200" class="border border-5" style="border-radius: 10%;">
+          <div class="card-body" style="border-radius: 10%;">
+            <img src="img/1.webp" alt="" height="200" class="border border-5">
             <div class="d-flex justify-content-between">
-              <p class="card-text titulocarrito" style="font-size: x-large;">Macetero Nórdico Large Negro </p>
-              <p class="card-text position-absolute top-50 end-0 translate-middle-y me-2 tituloprecio" style="font-size: x-large;">Precio: $39.990</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0;">Macetero Nórdico Large Negro. </p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Precio: $39.990.</p>
             </div>
+            <p class="card-text" style="font-size: x-large;">Cantidad: 1. </p>
           </div>
         </div>
 
@@ -69,9 +64,10 @@
           <div class="card-body">
             <img src="img/2.webp" alt="" height="200" class="border border-5" style="border-radius: 10%;">
             <div class="d-flex justify-content-between">
-              <p class="card-text titulocarrito" style="font-size: x-large;">Planta Aria</p>
-              <p class="card-text position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: x-large;">Precio: $29.990</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Planta Aria.</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Precio: $29.990.</p>
             </div>
+            <p class="card-text" style="font-size: x-large;">Cantidad: 1.</p>
           </div>
         </div>
         
@@ -79,16 +75,17 @@
           <div class="card-body">
             <img src="img/3.webp" alt="" height="200" class="border border-5" style="border-radius: 10%;">
             <div class="d-flex justify-content-between">
-              <p class="card-text  top-50 start-50 titulocarrito" style="font-size: x-large;">Macetero Qatar Blanco</p>
-              <p class="card-text position-absolute top-50 end-0 translate-middle-y me-2" style="font-size: x-large;">Precio: $35.990</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Macetero Qatar Blanco.</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Precio: $35.990.</p>
             </div>
+            <p class="card-text" style="font-size: x-large;">Cantidad: 1.</p>
           </div>
         </div>
         <hr>
         <div class="d-flex justify-content-between">
           <div>
-            <p style="margin: 0; padding: 0; font-weight: bold; font-size: x-large;">Total a pagar: $105.970</p>
-            <p style="margin: 0; padding: 0; font-weight: bold; font-size: x-large;">Descuento: $0</p>
+            <p style="margin: 0; padding: 0; font-weight: bold; font-size: x-large;">Descuento (5% Suscripción): $5300</p>
+            <p style="margin: 0; padding: 0; font-weight: bold; font-size: x-large;">Total a pagar: $100.670</p>
           </div>
           <button onclick="alerta()" type="button" class="btn btn-warning btn-block btn-lg">Proceder a pagar</button>
         </div>

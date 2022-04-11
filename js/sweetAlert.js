@@ -73,7 +73,7 @@ function registrado(){
 
             setTimeout(myURL,1500);
             function myURL(){
-              location.href ="indexRegistrado.html"
+              location.href ="indexSuscrito.html"
             }
         }
         })

@@ -41,6 +41,9 @@
                   <div>
                     <a href="carrito.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-cart-shopping"></i> Carrito </a>
                   </div>
+                  <div>
+                    <a href="planes.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-star"></i> Suscripción</a>
+                  </div>
                   <div class="dropdown-divider"></div>
                   <div class="ms-2" style="cursor: pointer;" onclick="cerrarsesion()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</div>
               </div>
@@ -53,78 +56,52 @@
         </div>
       </nav>
 
-      <div class="container mb-5">
-        <div class="d-flex justify-content-between align-items-center mt-4">
-            <h4><i class="fa-solid fa-cart-shopping"></i> Carrito de compras</h4>
-            <div>
-                <a href="" style="text-decoration: none; color: white;" >Filtrar por: precio <i class="fas fa-angle-down mt-1"></i></a>
+      <div class="container">
+
+        <div class="card bg-dark mb-3 mt-3">
+          <div class="card-body" style="border-radius: 10%;">
+            <img src="img/1.webp" alt="" height="200" class="border border-5">
+            <div class="d-flex justify-content-between">
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0;">Macetero Nórdico Large Negro. </p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Precio: $39.990.</p>
             </div>
+            <p class="card-text" style="font-size: x-large;">Cantidad: 1. </p>
+          </div>
+        </div>
+
+        <div class="card bg-dark mb-3 mt-3">
+          <div class="card-body">
+            <img src="img/2.webp" alt="" height="200" class="border border-5" style="border-radius: 10%;">
+            <div class="d-flex justify-content-between">
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Planta Aria.</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Precio: $29.990.</p>
+            </div>
+            <p class="card-text" style="font-size: x-large;">Cantidad: 1.</p>
+          </div>
         </div>
         
-        <div class="card mb-1"></div>
-        
-        <div class="card mb-4 item-carrito">
-            <div class="card-body p-4">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <img src="img/1.webp" alt="" height="200">
-                    </div>
-                    <div class="col-sm-3 mt-5 columnaprecio">
-                        <h3 class="text-black textocarta">Macetero Nórdico Large Negro</h3>
-                    </div>
-                    <div class="col-sm-5"></div>
-                    <div class="col-sm-2 mt-5">
-                        <h3 class="text-black textoprecio">Precio: $39.990</h3>
-                    </div>
-                </div>
+        <div class="card bg-dark mb-3 mt-3">
+          <div class="card-body">
+            <img src="img/3.webp" alt="" height="200" class="border border-5" style="border-radius: 10%;">
+            <div class="d-flex justify-content-between">
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Macetero Qatar Blanco.</p>
+              <p class="card-text" style="font-size: x-large; margin: 0; padding: 0">Precio: $35.990.</p>
             </div>
+            <p class="card-text" style="font-size: x-large;">Cantidad: 1.</p>
+          </div>
         </div>
-
-        <div class="card mb-4 item-carrito">
-            <div class="card-body p-4">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <img src="img/2.webp" alt="" height="200">
-                    </div>
-                    <div class="col-sm-3 mt-5">
-                        <h3 class="text-black textocarta">Planta Aria</h3>
-                    </div>
-                    <div class="col-sm-5"></div>
-                    <div class="col-sm-2 mt-5">
-                        <h3 class="text-black textoprecio">Precio: $29.990</h3>
-                    </div>
-                </div>
-            </div>
+        <hr>
+        <div class="d-flex justify-content-between">
+          <div>
+            <p style="margin: 0; padding: 0; font-weight: bold; font-size: x-large;">Descuento: $0</p>
+            <p style="margin: 0; padding: 0; font-weight: bold; font-size: x-large;">Total a pagar: $105.970</p>
+          </div>
+          <button onclick="alerta()" type="button" class="btn btn-warning btn-block btn-lg">Proceder a pagar</button>
         </div>
-
-        <div class="card mb-4 item-carrito">
-            <div class="card-body p-4">
-                <div class="row">
-                    <div class="col-sm-2">
-                        <img src="img/3.webp" alt="" height="200">
-                    </div>
-                    <div class="col-sm-3 mt-5">
-                        <h3 class="text-black textocarta">Macetero Qatar Blanco</h3>
-                    </div>
-                    <div class="col-sm-5"></div>
-                    <div class="col-sm-2 mt-5">
-                        <h3 class="text-black textoprecio">Precio: $35.990</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="card mb-2"></div>
-
-        <div class="d-flex justify-content-between ">
-            <h4>Descuento: $0</h4>
-            <button onclick="alerta()" type="button" class="btn btn-warning btn-block btn-lg fire">Proceder a pagar</button>
-        </div>
-        <h4>Total a pagar: $105.970</h4>
-    </div>
+      </div>
 
     
-        <div class="bg-dark text-center text-white">
+        <div class="bg-dark text-center text-white mt-5">
             <div class="container p-4">
               <div class="mb-4">
                 <!-- Iconos -->
