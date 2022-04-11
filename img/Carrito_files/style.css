@@ -122,14 +122,6 @@ footer {
 .footerregistro{
     margin-top: 20%;
 }
-
-.titulocarrito{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-}
-
 @media (min-width: 1920px){
     .footerregistro{
         margin-top: 100px;
@@ -188,10 +180,7 @@ footer {
     }
 
     .titulocarrito{
-        position: none;
-        transform: none;
-        top: none;
-        left: none;
+        top: 25%;
     }
 
 }

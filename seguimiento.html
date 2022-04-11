@@ -31,7 +31,25 @@
             <a class="nav-link" href="planes.html">Suscripción</a>
           </li>
         </ul>
-        <a href="" class="btn btn-primary boton"><i class="fa-solid fa-user"> PERFIL</i></a>
+
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle me-2 botones" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <div class="dropdown-menu">
+                <div class="bg-dark ms-2 me-2 border border-5 border-primary fotoperfil"></div>
+                <div class="dropdown-divider"></div>
+                <div>
+                  <a href="seguimiento.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-truck"></i> Seguimiento</a>
+                </div>
+                <div>
+                  <a href="carrito.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-cart-shopping"></i> Carrito </a>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="ms-2" style="cursor: pointer;"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</div>
+            </div>>
+          </div>
+
         <form class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Buscar">
           <button class="btn btn-primary" type="button"><i class="fa fa-magnifying-glass"></i></button>
@@ -40,49 +58,53 @@
     </div>
   </nav>
 
-  <div class="container mb-5">
-    <div class="d-flex  mt-4">
-        <h4 class="text-light">Seguimiento del pedido</h4>
-    </div>
-  </div>
-
-  <hr style="color: white;">
 
     <div class="container">
-        <div class="row"> 
-            <div class="col-sm-6 text-light">
-                <form class="form-seguimiento">
-                    <label for="seguimiento">Codigo de Seguimiento:</label>
-                    <input type="text" class="form-control"  id="seguimiento">
-                    <hr style="color:lightgray;">
-                    <button type="submit" class="btn btn-success">Buscar</button>
-                  </form>
-            </div>
 
-            <div class="col-sm-6 mt-5">
-              <table class="table">
-                <thead>
-                  <tr class="text-light">
-                    <th>Fecha del pedido</th>
-                    <th>Hora del pedido</th>
-                    <th>Despacho</th>
-                    <th>Fue recibido</th>
-                  </tr>
-                </thead>
-                <tbody class="">
-                  <tr class="text-light" style="border: rgb(77, 75, 75);">
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>john@example.com</td>
-                    <td>john@example.com</td>
-                  </tr>
-              </table>
-            </div>
-        </div>
+        <section class="intro">
+          <div class="gradient-custom-2 h-100">
+            <div class="mask d-flex align-items-center h-100">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-12">
+                    <div class="table-responsive">
+                      <table class="table table-dark table-bordered mb-0">                         
+                        <div>
+                          <form class="form-seguimiento" style="margin-bottom: 25px;">
+                            <h1 class="text-light">Seguimiento del pedido</h1>
+                            <label for="seguimiento" style="color: white;">Codigo de Seguimiento:</label>
+                            <input type="text" class="form-control"  id="seguimiento">
+                            <button type="submit" class="btn btn-success mt-2" style="margin-bottom: 15px;">Buscar</button>
+                          </form>
+                        </div>
 
+                        <thead>
+                          <tr>
+                            <th scope="col">FECHA DE PEDIDO</th>
+                            <th scope="col">HORA DEL PEDIDO</th>
+                            <th scope="col">DIRECCIÓN</th>
+                            <th scope="col">FUE RECIBIDO</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">12/02/2022</th>
+                            <td>16:45 PM</td>
+                            <td>Avenida Siempre Viva 742</td>
+                            <td>Sí</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     </div>
     
-    <footer class="bg-dark text-center text-white">
+    <div class="bg-dark text-center text-white" style="margin-top: 15%;">
       <hr>
       <div class="container p-4">
         <div class="mb-4">
@@ -91,11 +113,11 @@
           <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i class="fab fa-instagram"></i></a>
           <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i class="fab fa-github"></i></a>
         </div>
-          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2020 Copyright:
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2022 Copyright:
             <a class="text-white" href="">Floreria</a>
           </div>
       </div>
-  </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

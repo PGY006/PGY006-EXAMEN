@@ -40,7 +40,7 @@
       
       <div class="text-center bg-image" style="background-image: url('img/wallpaperflare.com_wallpaper.jpg');height: 500px; background-size: cover;">
         <div class="d-flex justify-content-center align-items-center h-100">
-            <h1>Florería Online</h1>
+            <h1 style="color: white;">Florería Online</h1>
         </div>
       </div>
 
@@ -71,8 +71,8 @@
                         <p class="card-text">Planta Aria</p>
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="btn-group">
-                            <button type="button" class="btn btn-outline-primary">Agregar al carrito</button>
-                            <button type="button" class="btn btn-outline-success">Comprar</button>
+                            <button type="button" class="btn btn-outline-primary" onclick="carrito()">Agregar al carrito</button>
+                            <a href="carritoNR.html" type="button" class="btn btn-outline-success">Comprar</a>
                           </div>
                           <p>⭐$39.990</p>
                         </div>
@@ -92,8 +92,8 @@
                           <p class="card-text">Planta Aria</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-outline-primary">Agregar al carrito</button>
-                              <button type="button" class="btn btn-outline-success">Comprar</button>
+                              <button type="button" class="btn btn-outline-primary" onclick="carrito()">Agregar al carrito</button>
+                              <a href="carritoNR.html" type="button" class="btn btn-outline-success">Comprar</a>
                             </div>
                             <p>⭐$39.990</p>
                           </div>
@@ -113,8 +113,8 @@
                           <p class="card-text">Macetero Qatar Blanco</p>
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                              <button type="button" class="btn btn-outline-primary">Agregar al carrito</button>
-                              <button type="button" class="btn btn-outline-success">Comprar</button>
+                              <button type="button" class="btn btn-outline-primary" onclick="carrito()">Agregar al carrito</button>
+                              <a href="carritoNR.html" type="button" class="btn btn-outline-success">Comprar</a>
                             </div>
                             <small class="text-muted">⭐$35.990</small>
                           </div>
@@ -147,13 +147,18 @@
             <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i class="fab fa-instagram"></i></a>
             <a class="btn btn-outline-light btn-floating m-1" href="" role="button"><i class="fab fa-github"></i></a>
           </div>
-            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2020 Copyright:
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">© 2022 Copyright:
               <a class="text-white" href="">Floreria</a>
           </div>
         </div>
       </div>
 
+      <!--SweetAlert-->
+      <script src="js/sweetAlert.js"></script>
+
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
   </body>
 </html>

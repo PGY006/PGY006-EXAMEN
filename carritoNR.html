@@ -12,39 +12,23 @@
     <link href="css/style.css" rel="stylesheet">
 
 </head>
-<body class="carrito bg-secondary text-white">
+<body class="bg-secondary text-white">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
-          <a href="indexRegistrado.html" style="margin-right: 10px;"><img src="/img/logo.png" alt="" height="60"></a>
+          <a href="index.html" style="margin-right: 10px;"><img src="/img/logo.png" alt="" height="60"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="productoRegistrado.html"><h5 style="color: rgb(255, 255, 255);">Productos</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="planes.html">Suscripción</a>
+                <a class="nav-link" href="productos.html">Productos</a>
               </li>
             </ul>
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary dropdown-toggle me-2 botones" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-user"></i>
-              </button>
-              <div class="dropdown-menu">
-                  <div class="bg-dark ms-2 me-2 border border-5 border-primary fotoperfil"></div>
-                  <div class="dropdown-divider"></div>
-                  <div>
-                    <a href="seguimiento.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-truck"></i> Seguimiento</a>
-                  </div>
-                  <div>
-                    <a href="carrito.html" class="ms-2" style="text-decoration: none; color: black;"><i class="fa-solid fa-cart-shopping"></i> Carrito </a>
-                  </div>
-                  <div class="dropdown-divider"></div>
-                  <div class="ms-2" style="cursor: pointer;" onclick="cerrarsesion()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Cerrar Sesión</div>
-              </div>
-            </div>
+            
+            <a href="registro.html" class="btn btn-primary boton botones">Registrarse</a>
+            <a href="inicio.html" class="btn btn-success boton botones">Iniciar Sesion</a>
+
             <form class="d-flex">
               <input class="form-control me-2" type="text" placeholder="Buscar">
               <button class="btn btn-primary" type="button"><i class="fa fa-magnifying-glass"></i></button>
